@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "stoneFramework"
-  spec.version      = "1.1.0" #此处要与上传到Git的tag一致
+  spec.version      = "1.2.0" #此处要与上传到Git的tag一致
   spec.summary      = "This is my test pod." #摘要，随便写
-  spec.homepage     = "https://github.com/NeZha" #主页，随便写
+  spec.homepage     = "https://github.com/stone-4827321" #主页，随便写
   spec.license      = "MIT" #许可证类型，我只会MIT，其它的请自行Google
   spec.author       = { "stone" => "nezha@fengshen.com" } #作者和邮箱地址，随便写
 

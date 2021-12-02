@@ -6,11 +6,15 @@
 	<dict>
 		<key>Headers/stoneFramework.h</key>
 		<data>
-		Ys3Ag6uaI8wlrjkQDDP/ohD1uL4=
+		EST0WZZGun+XQE6NB7smrTMapNs=
+		</data>
+		<key>Headers/stoneTest.h</key>
+		<data>
+		9hjmSoIIUD75nd+em5z5DWaPttk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		30wM+RDOw1pzvnHovctdfkNVgxo=
+		ivCp6Ty5m5kk8djCQl/gLXR7Qno=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -23,11 +27,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ys3Ag6uaI8wlrjkQDDP/ohD1uL4=
+			EST0WZZGun+XQE6NB7smrTMapNs=
 			</data>
 			<key>hash2</key>
 			<data>
-			syOr3f7LBFX2Vo9oQAg3cIKLPaJVRUaPvDBdzGBHI+g=
+			85xt9uZVi3HS/1s91ab1bYluTCt6Zin/gYTqOJS33sU=
+			</data>
+		</dict>
+		<key>Headers/stoneTest.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9hjmSoIIUD75nd+em5z5DWaPttk=
+			</data>
+			<key>hash2</key>
+			<data>
+			5XwxrSrQ2AjPvMnaoh4ZeZLMjimXO2ww/qTIkeHSIUY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

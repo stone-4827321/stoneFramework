@@ -6,6 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <stoneFramework/stoneTest.h>
+
 
 //! Project version number for stoneFramework.
 FOUNDATION_EXPORT double stoneFrameworkVersionNumber;
