@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "stoneFramework"
-  spec.version      = "1.6.0" #此处要与上传到Git的tag一致
+  spec.version      = "1.7.0" #此处要与上传到Git的tag一致
   spec.summary      = "This is my test pod." #摘要，随便写
   spec.homepage     = "https://github.com/stone-4827321" #主页，随便写
   spec.license      = "MIT" #许可证类型，我只会MIT，其它的请自行Google
@@ -13,5 +13,10 @@ Pod::Spec.new do |spec|
 
   spec.ios.vendored_frameworks = 'stoneFramework.framework' #003号 坑
   spec.requires_arc = true #是否需要ARC
+
+  spec.pod_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
